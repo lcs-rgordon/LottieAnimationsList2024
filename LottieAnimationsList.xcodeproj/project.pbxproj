@@ -16,6 +16,7 @@
 		8186922A2B67159B00ABF222 /* Animation - 1706482925589.json in Resources */ = {isa = PBXBuildFile; fileRef = 818692292B67159B00ABF222 /* Animation - 1706482925589.json */; };
 		8186922D2B67163700ABF222 /* Animation - 1706483360553.json in Resources */ = {isa = PBXBuildFile; fileRef = 8186922B2B67163700ABF222 /* Animation - 1706483360553.json */; };
 		8186922E2B67163700ABF222 /* Animation - 1706483313212.json in Resources */ = {isa = PBXBuildFile; fileRef = 8186922C2B67163700ABF222 /* Animation - 1706483313212.json */; };
+		81F189562B67171200958A4B /* FavouriteAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F189552B67171200958A4B /* FavouriteAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		818692292B67159B00ABF222 /* Animation - 1706482925589.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Animation - 1706482925589.json"; sourceTree = "<group>"; };
 		8186922B2B67163700ABF222 /* Animation - 1706483360553.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Animation - 1706483360553.json"; sourceTree = "<group>"; };
 		8186922C2B67163700ABF222 /* Animation - 1706483313212.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Animation - 1706483313212.json"; sourceTree = "<group>"; };
+		81F189552B67171200958A4B /* FavouriteAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 		8186921F2B6710DD00ABF222 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				81F189552B67171200958A4B /* FavouriteAnimation.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81F189562B67171200958A4B /* FavouriteAnimation.swift in Sources */,
 				818692122B6710BE00ABF222 /* LottieAnimationsListApp.swift in Sources */,
 				818692222B6710F500ABF222 /* AnimationsListView.swift in Sources */,
 				818692272B67129600ABF222 /* LottieView.swift in Sources */,
